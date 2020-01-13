@@ -12,6 +12,16 @@ It was designed to improve and expand the capabilities of [BIP21](https://github
 3. Combine all cryptocurrencies into one URL scheme, as any cryptocurrency is a currency.
 4. Change the acquiring solutions so that they only accept cryptocurrency for the seller without any interface, since the user can choose the currency to pay for the order in the multicurrency wallet or at the time of choosing a wallet.
 
+## Difference from BIP21
+
+1. Process transactions with any currencies
+
+2. Integration with non-bitcoin wallets
+
+3. We constantly grow our ecosystem, so users of any cryptocurrencies will get benefits of protocol soon
+
+4. Our ecosystem contain payment processors, e-shops, exchanges, games & gamblings, other merchants
+
 ## Specification
 ```
 scheme="crypttp"
