@@ -25,7 +25,7 @@ It was designed to improve and expand the capabilities of [BIP21](https://github
 ## Specification
 ```
 scheme="crypttp"
-host="crypttp.com"
+host=""
 pathPrefix="/crypttp"
 example="crypttp://crypttp.com/crypttp"
 ```
@@ -34,7 +34,7 @@ example="crypttp://crypttp.com/crypttp"
 
 The params passed over protocol in base64 format.
 ```
-crypttp://crypttp.com/crypttp?params=eyJpZCI6Im1lcmNoYW50X2lkIiwicGFyYW1zIjpbWyJFVEgiLCIxLjY0NDY5MTE4NjY3NTkxOTUiLCIweGQzODZkMDQ1ZThkZDkzOEYwRGI3NTYyMjhlQWUzQzY0QUMwNWNBYjUiLCJtZXNzYWdlKHBheWxvYWQvZGF0YSkiLCJtZW1vIiwic3VjY2Vzc191cmwiLCJlcnJvcl91cmwiXSxbIlhMTSIsIjQ1NTcuNjkyMzA3NjkyMzA4IiwiR0RHVVVNUjNGS0VCVUc0NVJaVFJRQkJQQjJBSlZZWUZVQ0VaWkZJNUpQVjIyRVpKNFNSREtLTkMiLCJtZXNzYWdlKHBheWxvYWQvZGF0YSkiLCJtZW1vIiwic3VjY2Vzc191cmwiLCJlcnJvcl91cmwiXV19
+crypttp://crypttp?params=eyJpZCI6Im1lcmNoYW50X2lkIiwicGFyYW1zIjpbWyJFVEgiLCIxLjY0NDY5MTE4NjY3NTkxOTUiLCIweGQzODZkMDQ1ZThkZDkzOEYwRGI3NTYyMjhlQWUzQzY0QUMwNWNBYjUiLCJtZXNzYWdlKHBheWxvYWQvZGF0YSkiLCJtZW1vIiwic3VjY2Vzc191cmwiLCJlcnJvcl91cmwiXSxbIlhMTSIsIjQ1NTcuNjkyMzA3NjkyMzA4IiwiR0RHVVVNUjNGS0VCVUc0NVJaVFJRQkJQQjJBSlZZWUZVQ0VaWkZJNUpQVjIyRVpKNFNSREtLTkMiLCJtZXNzYWdlKHBheWxvYWQvZGF0YSkiLCJtZW1vIiwic3VjY2Vzc191cmwiLCJlcnJvcl91cmwiXV19
 ```
 
 #### parsed params
