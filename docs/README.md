@@ -8,8 +8,8 @@ It was designed to improve and expand the capabilities of [BIP21](https://github
 
 ## Motivation
 1. Enable users to easily make payments by simply clicking links on webpages or scanning QR Codes or clicking buttons at webpages and mobile apps.
-2. Give users the ability to choose which cryptocurrency wallet application to use to complete the transaction.
-3. Combine all cryptocurrencies into one URL scheme, as any cryptocurrency is a currency.
+2. Give users the ability to choose which cryptocurrency wallet application to use to complete the transaction (currently user can choose wallet only on Android, lets make it crossplatform)
+3. Improve payment UX by returning user back to merchant after payment done.
 4. Change the acquiring solutions so that they only accept cryptocurrency for the seller without any interface, since the user can choose the currency to pay for the order in the multicurrency wallet or at the time of choosing a wallet.
 
 ## Difference from BIP21
@@ -24,10 +24,10 @@ It was designed to improve and expand the capabilities of [BIP21](https://github
 
 ## Specification
 ```
-scheme="crypttp"
-host=""
-pathPrefix="/crypttp"
-example="crypttp://crypttp.com/crypttp"
+scheme="yourappname"
+host="crypttp"
+pathPrefix=""
+example="yourappname://crypttp?params="
 ```
 
 ## Query Keys
@@ -46,15 +46,6 @@ crypttp://crypttp?params=eyJpZCI6Im1lcmNoYW50X2lkIiwicGFyYW1zIjpbWyJFVEgiLCIxLjY
       "ETH",
       "1.6446911866759195",
       "0xd386d045e8dd938F0Db756228eAe3C64AC05cAb5",
-      "message(payload/data)",
-      "memo",
-      "success_url",
-      "error_url"
-    ],
-    [
-      "XLM",
-      "4557.692307692308",
-      "GDGUUMR3FKEBUG45RZTRQBBPB2AJVYYFUCEZZFI5JPV22EZJ4SRDKKNC",
       "message(payload/data)",
       "memo",
       "success_url",
